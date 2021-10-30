@@ -10,6 +10,9 @@ export class LayoutComponent implements OnInit {
   genderCode = 0;
   today: number = Date.now();
 
+  company = 'CE2 Corps';
+  createdBy = $localize`Created by ${this.company}`;
+
   constructor() {}
 
   ngOnInit(): void {}

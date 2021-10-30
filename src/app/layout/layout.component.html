@@ -1,6 +1,13 @@
 <h1 i18n="Page Header|This is the page header@@pageHeader">Welcome!</h1>
 <p i18n="Page Description|This is the page description.@@pageDescription">This is my app.</p>
 
-<a i18n i18n-href i18n-title href="/en-US/portfolio" title="My Portfolio">
-  Portfolio
-</a>
+<p>
+  <a i18n i18n-href i18n-title href="/en-US/portfolio" title="My Portfolio">Portfolio</a>
+</p>
+
+
+<p i18n="Page Tasks|These are the tasks of the page.@@pageTasks">{tasksCount, plural, zero {no tasks}
+  one {{{tasksCount}} task}
+  few {{{tasksCount}} tasks}
+  many {{{tasksCount}} tasks}
+  other {{{tasksCount}} tasks}}</p>

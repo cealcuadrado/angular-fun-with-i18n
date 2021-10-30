@@ -4,7 +4,6 @@
     <body>
       <trans-unit id="pageHeader" datatype="html">
         <source>Welcome!</source>
-        <target>¡Bienvenido!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/layout.component.html</context>
           <context context-type="linenumber">1</context>
@@ -14,7 +13,6 @@
       </trans-unit>
       <trans-unit id="pageDescription" datatype="html">
         <source>This is my app.</source>
-        <target>Esta es mi app</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/layout.component.html</context>
           <context context-type="linenumber">2</context>
@@ -23,26 +21,34 @@
         <note priority="1" from="meaning">Page Description</note>
       </trans-unit>
       <trans-unit id="8336405567663867706" datatype="html">
-        <source>/es-CL/portfolio</source>
+        <source>/en-US/portfolio</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/layout.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6709320430327029754" datatype="html">
-        <source>Mi Portafolio</source>
+        <source>My Portfolio</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/layout.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2757309864940536640" datatype="html">
-        <source> Portafolio
-</source>
+      <trans-unit id="9201103587777813545" datatype="html">
+        <source>Portfolio</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/layout.component.html</context>
-          <context context-type="linenumber">4,6</context>
+          <context context-type="linenumber">5</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="pageTasks" datatype="html">
+        <source>{VAR_PLURAL, plural, zero {no hay tareas} one {<x id="INTERPOLATION"/> tarea} few {<x id="INTERPOLATION"/> tareas} many {<x id="INTERPOLATION"/> tareas} other {<x id="INTERPOLATION"/> tareas}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">9,13</context>
+        </context-group>
+        <note priority="1" from="description">These are the tasks of the page.</note>
+        <note priority="1" from="meaning">Page Tasks</note>
       </trans-unit>
     </body>
   </file>

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LayoutComponent implements OnInit {
 
+  tasksCount = 3;
+
   constructor() { }
 
   ngOnInit(): void {

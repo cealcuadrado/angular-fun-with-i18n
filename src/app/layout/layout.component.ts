@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LayoutComponent implements OnInit {
   tasksCount = 3;
   genderCode = 0;
+  today: number = Date.now();
 
   constructor() {}
 

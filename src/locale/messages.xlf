@@ -20,6 +20,28 @@
         <note priority="1" from="description">This is the page description.</note>
         <note priority="1" from="meaning">Page Description</note>
       </trans-unit>
+      <trans-unit id="8336405567663867706" datatype="html">
+        <source>/en-US/portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6709320430327029754" datatype="html">
+        <source>My Portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2757309864940536640" datatype="html">
+        <source> Portfolio
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

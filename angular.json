@@ -13,6 +13,15 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale":"en-US",
+        "locales": {
+          "es": {
+            "translation":"src/locale/messages.es.xlf",
+            "baseHref": ""
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -55,6 +64,11 @@
               ],
               "outputHashing": "all"
             },
+            "es": {
+              "localize": ["es"],
+              "outputPath": "dist/fun-with-i18n-es",
+              "i18nMissingTranslation": "error"
+            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
@@ -71,6 +85,9 @@
           "configurations": {
             "production": {
               "browserTarget": "fun-with-i18n:build:production"
+            },
+            "es": {
+              "browserTarget": "fun-with-i18n:build:es"
             },
             "development": {
               "browserTarget": "fun-with-i18n:build:development"

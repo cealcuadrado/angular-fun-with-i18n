@@ -5,9 +5,21 @@
   <a i18n i18n-href i18n-title href="/en-US/portfolio" title="My Portfolio">Portfolio</a>
 </p>
 
-
 <p i18n="Page Tasks|These are the tasks of the page.@@pageTasks">{tasksCount, plural, zero {no tasks}
   one {{{tasksCount}} task}
   few {{{tasksCount}} tasks}
   many {{{tasksCount}} tasks}
   other {{{tasksCount}} tasks}}</p>
+
+<hr />
+
+<p i18n="Page Paragraph Select|The paragraph of this page is for showing the selected genre.@@pageParagraphSelect">
+  Gender: {genderCode, select, 0 {male} 1 {female} other {unknown}}
+</p>
+
+<div class="btn-group">
+  <button class="btn btn-success" (click)="male()">♂</button>
+  <button class="btn btn-primary" (click)="female()">♀</button>
+  <button class="btn btn-info" (click)="other()">⚧</button>
+</div>
+

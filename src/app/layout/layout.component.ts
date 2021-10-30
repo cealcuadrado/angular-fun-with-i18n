@@ -3,15 +3,24 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-layout',
   templateUrl: './layout.component.html',
-  styleUrls: ['./layout.component.css']
+  styleUrls: ['./layout.component.css'],
 })
 export class LayoutComponent implements OnInit {
-
   tasksCount = 3;
+  genderCode = 0;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  /* For Select */
+  male() {
+    this.genderCode = 0;
   }
-
+  female() {
+    this.genderCode = 1;
+  }
+  other() {
+    this.genderCode = 2;
+  }
 }

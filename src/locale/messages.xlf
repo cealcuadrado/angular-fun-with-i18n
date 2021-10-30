@@ -45,10 +45,27 @@
         <source>{VAR_PLURAL, plural, zero {no tasks} one {<x id="INTERPOLATION"/> task} few {<x id="INTERPOLATION"/> tasks} many {<x id="INTERPOLATION"/> tasks} other {<x id="INTERPOLATION"/> tasks}}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/layout/layout.component.html</context>
-          <context context-type="linenumber">9,13</context>
+          <context context-type="linenumber">8,12</context>
         </context-group>
         <note priority="1" from="description">These are the tasks of the page.</note>
         <note priority="1" from="meaning">Page Tasks</note>
+      </trans-unit>
+      <trans-unit id="pageParagraphSelect" datatype="html">
+        <source> Gender: <x id="ICU" equiv-text="{genderCode, select, 0 {male} 1 {female} other {unknown}}"/>
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+        <note priority="1" from="description">The paragraph of this page is for showing the selected genre.</note>
+        <note priority="1" from="meaning">Page Paragraph Select</note>
+      </trans-unit>
+      <trans-unit id="6752230204120144316" datatype="html">
+        <source>{VAR_SELECT, select, 0 {male} 1 {female} other {unknown}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

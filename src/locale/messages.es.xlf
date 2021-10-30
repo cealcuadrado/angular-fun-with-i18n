@@ -86,6 +86,16 @@
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="developedBy" datatype="html">
+        <source>Developed By <x id="PH" equiv-text="this.company"/></source>
+        <target>Desarrollado por <x id="PH" equiv-text="this.company"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/layout.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Explains who developed the app</note>
+        <note priority="1" from="meaning">Used on the Layout</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -12,6 +12,7 @@ export class LayoutComponent implements OnInit {
 
   company = 'CE2 Corps';
   createdBy = $localize`Created by ${this.company}`;
+  developedBy = $localize`:Used on the Layout|Explains who developed the app@@developedBy:Developed By ${this.company}`;
 
   constructor() {}
 
